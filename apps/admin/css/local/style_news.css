@@ -1,0 +1,7 @@
+@charset "utf-8";
+.news_tab a {
+	padding:0 5px;
+	color:blue;
+	text-decoration:underline;
+	display:inline-block;}
+
