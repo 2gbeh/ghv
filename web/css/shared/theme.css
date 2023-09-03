@@ -1,0 +1,77 @@
+@charset "utf-8";
+:root 
+{
+	/* Global */
+	--Cyan:#0093DD;
+	--Lyan:#75C5F0;	
+	--Dyan:#007BB8;
+	--Call:#16BC00;
+	--Uncall:#090;		
+	--Blood:#EE1111;	
+	/* Local */
+	--green:#01903E;	
+	--blue:#26176C;
+	--red:#D72519;
+}
+/* GREEN */
+.green-bg, 
+a.go, 
+header, 
+nav ul li a:hover, 
+form.main input[type="submit"] 
+{background-color:#01903E;}
+
+.green, 
+header ul li a:hover, 
+header ul li a.hotkey, 
+footer ol > li a,  
+.about h1, 
+.complan #complan_a h3, 
+.faq h1, 
+.faq main a, 
+.register .heading h2, 
+form.main legend, 
+form.main a, 
+form.main input[type="submit"]:focus
+{color:#01903E;}
+
+.home section.slide 
+{text-shadow:1px 2px 0 #01903E;}
+
+.home section.benefits ul > li, 
+.complan #complan_a ul > li 
+{border-top:solid #01903E;}
+
+.home section.services ul li {
+	border:solid thin #01903E;
+	color:#01903E;}	
+
+form.main input:focus, 
+form.main select:focus, 
+form.main textarea:focus 
+{border-bottom:solid #01903E;}
+
+/* BLUE */
+.blue-bg, 
+.home section.vision, 
+.complan #complan_b a.go 
+{background-color:#26176C;}
+
+.blue, 
+.complan #complan_b h3 
+{color:#26176C;}
+
+.complan #complan_b ul > li 
+{border-top:solid #26176C;}
+
+/* RED */
+.red-bg, 
+footer input[type="button"] 
+{background-color:#D72519;}	
+
+.red, 
+.complan main h5 b 
+{color:#D72519;}
+
+footer input[type="email"] 
+{border-bottom:solid #D72519;}

@@ -1,0 +1,63 @@
+@charset "utf-8";
+.complan main {
+	margin:0 0 60px;}
+.complan main h1 {
+	padding:10px;
+	background-color:#333;	
+	color:#FFF;	
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-top:0;
+	margin-bottom:0;}
+.complan main h2 {
+	text-transform:uppercase;
+	line-height:0;}
+.complan main h3 {
+	text-transform:uppercase;
+	margin-bottom:5px;}	
+.complan main h5 {margin:0;}	
+.complan main h5 b {font-weight:normal;}	
+.complan main article {
+	margin:10px 0 0;
+	padding:0 10px;
+	color:#666;
+	text-transform:uppercase;
+	font-size:14px;}
+.complan main ul > li {
+	padding:20px 10px;
+	margin:20px 10px;
+	width:310px;
+	box-shadow:0 5px 10px 0 #DDD;}
+.complan main ol {
+	margin:0 10px;
+	padding:10px;}	
+.complan main ol li {
+	margin:5px 0;
+	text-align:left;
+	font-size:14px;}	
+.complan section:nth-child(3) ol li:before {
+	content:url(../../media/icons/Glyph-Good-Green-Small.png);
+	padding-right:10px;}	
+.complan section:last-child ol li:before {
+	content:url(../../media/icons/Glyph-Good-Blue-Small.png);
+	padding-right:10px;}		
+	
+	
+	
+.complan main ul.tabs > li {
+	padding:0;
+	margin:0;
+	width:auto;
+	border-radius:10px 10px 0 0;	
+	box-shadow:none;}
+.complan main ul.tabs > li a {
+	padding:8px 20px;
+	border:solid thin #333;	
+	border-radius:10px 10px 0 0;		
+	display:block;}
+.complan main ul.tabs > li a#active {	
+	background-color:#333;	
+	color:#FFF;
+	font-weight:bold;}
+.complan main ul.tabs > li a:hover {
+	background-color:#FFC;}

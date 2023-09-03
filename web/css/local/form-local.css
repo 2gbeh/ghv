@@ -1,0 +1,8 @@
+@charset "utf-8";
+.contact main, 
+.register main, 
+.login main {margin-bottom:60px;}
+
+.register .heading {text-align:center;}
+.register .heading h2 {margin-bottom:10px; text-transform:uppercase;}
+.register .heading b {text-transform:uppercase;}

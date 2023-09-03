@@ -1,0 +1,5 @@
+@charset "utf-8";
+.faq main {margin-bottom:40px;}
+.faq main h2 {font-weight:bold;}	
+.faq main article {margin-bottom:40px;}	
+.faq main article a {text-decoration:underline;}

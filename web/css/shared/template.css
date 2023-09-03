@@ -1,0 +1,113 @@
+@charset "utf-8";
+body {background-color:#FFF;}
+a.go {
+	padding:10px 20px;
+	margin:10px 0;
+	color:#FFF;
+	font-size:14px;
+	display:inline-block;}
+
+
+header {
+	padding:0 20px;
+	color:#FFF;}
+header img {
+	width:40px;
+	border:0;
+	border-radius:25px;}
+header ul {float:right;}
+header ul li a {padding:10px 15px;}
+header ul li a:hover, 
+header ul li a.hotkey {
+	background-color:#FFF;
+	border-radius:20px;}
+header ul li a.hotkey {margin:0 5px;}
+header ul li a.hotkey:hover {background-color:#EEE;}	
+header a.equiv {
+	margin-bottom:10px;	
+	font-size:42px;
+	font-weight:bold;
+	line-height:0.6;
+	float:right;	
+	cursor:pointer;}
+header a.equiv:hover {color:#DDD;}
+	
+		
+
+nav {margin-top:65px;}
+nav ul li {display:block;}
+nav ul li a {
+	padding:15px;
+	background-color:#333;
+	color:#FFF;
+	display:block;}
+
+img.banner {width:100%;}
+
+footer {
+	padding:40px 20px 0;
+	background-color:#333;
+	color:#FFF;
+	font-size:14px;}
+footer a:hover {
+	text-decoration:underline;}
+footer ul > li {
+	margin:10px;
+	width:300px;}
+footer ol > li {
+	padding:10px 0;}	
+footer ol > li img {
+	margin-right:5px;
+	width:8px;
+	border:0;}
+footer ol > li img[alt="Email"] {
+	width:12px;}
+footer input[type="email"] {
+	padding:10px 15px;
+	color:#666;
+	width:100%;
+	border:0;}	
+footer input[type="button"] {
+	padding:10px 20px;
+	margin:5px 0;
+	color:white;
+	border:0;}	
+
+
+
+footer .footnote {
+	color:#999;
+	margin-top:40px;
+	padding:10px 0;	
+	border-top:solid thin #666;}
+footer .footnote ul {
+	float:right;
+	vertical-align:bottom;}	
+footer .footnote ul li {
+	width:auto;
+	margin:0;}	
+footer .footnote img {
+	width:25px;
+	border-radius:5px;
+	margin:0 5px;}
+footer .footnote img#admin {
+	width:25px;
+	border-radius:100%;}
+
+
+footer a.top {
+	padding:12px 10px;	
+	background-color:#333;	
+	color:#FFF;
+	font-size:10px;
+	font-weight:bold;
+	border-radius:5px;	
+	right:20px;
+	bottom:60px;	
+	position:fixed;}
+footer a.top:hover {text-decoration:none;}	
+
+
+
+	
+	

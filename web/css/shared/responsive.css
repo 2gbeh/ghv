@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+header a.equiv {display:none;}
+nav {display:none;}
+@media not screen and (min-width:800px) 
+{
+	header ul {display:none;}	
+	header a.equiv {display:block;}
+}
+@media not screen and (min-width:480px) 
+{
+	.wrap, .container {padding:10px; width:100%;}	
+	header {padding:0 10px;}	
+	
+	.home section.slide {height:25em;}
+	.home section.slide h1 {font-size:40px;}	
+	.home section.slide h2 {font-size:30px;}
+	.home section.slide .slide-wrap {left:15px; bottom:0;}	
+	.home section.about ul {margin:0;}
+	.home section.about ul li.thumb {height:250px;}
+	.home section.about ul li {padding:0 15px; width:100%;}
+	.home section.services ul li {padding:10px; margin:5px;}	
+	.home section.gallery {margin:20px 0;}
+	.home section.gallery table {width:1600px;}
+	.home section.gallery table td{background-position:top center;}	
+	.home section.vision {padding:20px;}	
+	.home section.benefits ul > li, 
+	.complan main ul > li {width:90%; margin:10px;}
+
+	form.main fieldset {padding:0 10px;}
+	
+	footer ul > li {width:90%;}	
+	footer a.top {right:10px; bottom:10px;}	
+	footer {padding:10px;}
+	footer .footnote {margin-top:10px;}
+	footer .footnote table tr {vertical-align:top;}	
+	footer .footnote table td {white-space:normal;}	
+}
