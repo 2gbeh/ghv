@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+body {font-size:12px;}
+
+
+header {
+	padding-left:20px;
+	padding-right:20px;
+	color:#FFF;
+	position:fixed;
+	width:100%;}
+header img {
+	margin:5px 10px 0 0;
+	width:50px;
+	float:left;}
+header table tr {vertical-align:middle;}
+header .typeface {font-size:18px;}
+header ul.nav {text-align:right;}	
+header ul.nav li a {
+	background-color:#FFF;
+	padding:10px 15px;}
+header ul.nav li a:hover {background-color:lavender;}
+
+
+equiv {
+	margin-bottom:5px;	
+	font-size:40px;
+	font-weight:bold;
+	line-height:0.6;
+	float:right;
+	cursor:pointer;}
+equiv:hover {color:#EEE;}
+
+
+nav {
+	margin-top:45px;
+	color:#FFF;	
+	position:fixed;
+	width:100%;}
+nav ul li {display:block;}	
+nav ul li a {
+	padding:15px 20px;
+	display:block;
+	cursor:default;}
+
+	
+main {
+	padding:50px 10px 10px;	
+	margin:0 auto;
+	width:500px;}
+
+
+footer {
+	margin:10px 0;
+	color:#666;
+	text-align:center;
+	text-shadow:0 1px 0 #FFF;}
+
+

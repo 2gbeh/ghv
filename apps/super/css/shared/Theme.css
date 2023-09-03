@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+header, 
+nav, 
+ol.graph-tube li.graph-ink, 
+.signin main form input[type="submit"], 
+.dashboard main ul li a:hover, 
+form.task input[type="button"], 
+.records form table tr th, 
+.records form a.btn, 
+table.pager th, 
+.editor main form input[type="submit"] {
+	background-color:#222;}
+
+header ul.nav li a {
+	color:#222;}
+	
+.signin main form {	
+	border-top:solid #222;}
+
+table.pager th {
+	border:solid thin #222;}
+	
+nav ul li a:hover, 
+.signin main form input[type="submit"]:hover, 
+form.task input[type="button"]:hover, 
+.editor main form input[type="submit"]:hover {
+	background-color:#333;}	
+	

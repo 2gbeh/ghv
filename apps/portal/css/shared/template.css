@@ -1,0 +1,50 @@
+@charset "utf-8";		
+header {
+	padding:0 20px;
+	color:#FFF;}
+header img {
+	width:35px;
+	border:0;
+	border-radius:25px;}
+header ul {float:right;}
+header ul li a {
+	padding:10px;
+	background-color:#FFF;
+	font-size:12px;}
+header ul li a:hover {background-color:#EEE;}	
+header a.equiv {
+	margin-bottom:10px;	
+	font-size:42px;
+	font-weight:bold;
+	line-height:0.6;
+	float:right;	
+	cursor:pointer;}
+header a.equiv:hover {color:#DDD;}	
+
+
+nav {margin-top:65px;}
+nav ul li {display:block;}
+nav ul li a {
+	padding:15px;
+	background-color:#333;
+	color:#FFF;
+	display:block;}
+
+footer {
+	padding:10px;
+	margin-top:60px;
+	background-color:#333;
+	color:#FFF;
+	text-align:center;	
+	font-size:14px;}
+footer ul li {margin:10px;}	
+footer ul li a:hover {text-decoration:underline;}		
+footer address {
+	padding:10px 0;
+	margin-top:20px;
+	color:#999;
+	border-top:solid thin #666;	
+	display:block;	}
+
+	
+	

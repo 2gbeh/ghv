@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+equiv {display:none;}
+nav {display:none;}
+@media not screen and (min-width: 600px) 
+{
+	header {padding:10px;}
+	header ul.nav {display:none;}
+	equiv {display:block;}	
+	main {
+		padding-left:0; 
+		padding-right:0;
+		width:100%;}
+	.signin main {margin-top:0;}	
+	form.task input[type="search"] {
+		margin:0 5px;
+		width:95%;}
+	select, 
+	input[type="search"], 
+	input[type="date"], 
+	input[type="file"] {
+		height:3em;}			
+}
+
+
+
+

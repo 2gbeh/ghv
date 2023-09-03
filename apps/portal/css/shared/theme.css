@@ -1,0 +1,57 @@
+@charset "utf-8";
+:root 
+{
+	/* Global */
+	--Cyan:#0093DD;
+	--Lyan:#75C5F0;	
+	--Dyan:#007BB8;
+	--Call:#16BC00;
+	--Uncall:#090;		
+	--Blood:#EE1111;	
+	/* Local */
+	--green:#01903E;	
+	--blue:#26176C;
+	--red:#D72519;
+}
+/* GREEN */
+.green-bg,
+header,  
+nav ul li a:hover, 
+.profile, 
+table.tmp-table td a.btn-pri, 
+form.tmp-form input[type="submit"] 
+{background-color:#01903E;}
+
+/*div.caption a, */
+.green, 
+header ul li a, 
+footer ul li a, 
+table.tmp-report td a
+{color:#01903E;}
+
+table.tmp-table caption 
+{border:solid thin #01903E;}
+
+form.tmp-form input:focus, 
+form.tmp-form select:focus, 
+form.tmp-form textarea:focus 
+{border-bottom:solid #01903E;}
+
+/* BLUE */
+.blue-bg
+{background-color:#26176C;}
+
+.blue
+{color:#26176C;}
+
+
+/* RED */
+.red-bg, 
+table.tmp-table td a.btn-sec  
+{background-color:#D72519;}
+
+.red   
+{color:#D72519;}
+
+
+

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+.records main {width:100%;}
+
+
+form.task input {margin:2px 0;}	
+form.task input[type="button"] {
+	padding:10px;
+	color:#FFF;
+	width:auto;	
+	border:0;
+	border-radius:2px;}	
+form.task input[type="search"] {
+	padding:10px 15px;
+	width:auto;}	
+form.task input[type="search"]:focus {background-color:#FFC;}
+
+
+.records form table {
+	background-color:#FFF;
+	border-radius:2px;
+	box-shadow:0 1px 2px 0 #CCC;}
+.records form table caption {
+	background-color:#EBF8A4;
+	padding:10px;
+	margin:0 0 5px 0;
+	text-align:left;
+	border:solid thin #090;
+	border-radius:5px;}	
+.records form table caption a {
+	color:blue;
+	text-transform:uppercase;	
+	text-decoration:underline;
+	font-weight:bold;}
+.records form table tr {vertical-align:middle;}
+.records form table tr th {
+	padding:10px 5px;
+	color:#FFF;
+	text-align:left;
+	text-transform:uppercase;}
+.records form table tr td {
+	padding:5px;
+	border-bottom:solid thin #DDD;}
+.records form table tr:hover td {background-color:lavender;}
+
+
+.records form input[type="checkbox"] {
+	margin:2px 5px 0 0;  
+	width:auto;
+	float:left;
+	vertical-align:text-bottom;}
+.records form a.btn {
+	padding:5px 10px;
+	margin:0;
+	color:#FFF;
+	font-size:12px;
+	border-radius:3px;
+	cursor:pointer;}
+.records form a.btn-pri {background-color:#090;}	
+.records form a.btn-sec {background-color:#EE1111;}
+
+
+table.pager {
+	background-color:#FFF;
+	font-size:14px;
+	width:auto;}
+table.pager th {
+	padding:5px 10px;	
+	color:#FFF;
+	font-weight:normal;}	
+table.pager td {
+	border:solid thin;}
+table.pager td:hover {background-color:lavender;}	
+table.pager td a {
+	padding:5px 10px;	
+	display:block;}
+
+

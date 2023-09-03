@@ -1,0 +1,77 @@
+@charset "utf-8";
+a.default {color:blue; text-decoration:underline;}
+.container {
+	padding:0;
+	background-color:#FFF;
+	width:95%;}
+.caption {
+	padding:5px 10px;
+	margin:0;
+	text-transform:uppercase;
+	font-weight:bold;
+	border-bottom:dashed thin;}
+.caption a {
+	color:#0000EE;
+	text-decoration:underline;	
+	text-transform:none;
+	font-weight:normal;
+	font-size:16px;
+	float:right;}	
+.caption a:active {color:#EE0000;}
+.profile {
+	padding:20px 30px;
+	margin-top:10px;
+	background-image:url(../../../../web/media/icons/Glyph-User.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:contain;
+	border-radius:50px;	
+	display:inline-block;
+	cursor:pointer;}
+.pyramid {
+	width:0;
+	height:0;
+	display:inline-block;
+	cursor:pointer;}
+.py-large {
+	border-left:solid 20px transparent;
+	border-right:solid 20px transparent;
+	border-bottom:solid 40px #FFF;}
+.py-large#py-open {border-bottom:solid 40px #666;}
+.py-large#py-close {border-bottom:solid 40px #090;}		
+.py-small {
+	border-left:solid 10px transparent;
+	border-right:solid 10px transparent;
+	border-bottom:solid 20px #FFF;}
+.py-small#py-open {border-bottom:solid 20px #666;}
+.py-small#py-close {border-bottom:solid 20px #090;}
+.badge {
+	padding:2px 10px;
+	margin:0;
+	background-color:#EE1111;
+	color:#FFF;
+	font-size:12px;
+	font-style:normal;
+	border-radius:2px;
+	display:inline-block;}
+.payment .note {
+	padding:0 10px;
+	color:#EE1111;
+	text-transform:uppercase;
+	font-weight:bold;}
+table.matrix td {
+	padding:0 10px;
+	text-align:center;
+	font-size:12px;
+	width:150px;
+	border:solid thin lavender;}
+table.matrix td .user {padding-top:10px;}
+table.matrix td .meta {color:#666;}		
+table.matrix td .direct {
+	color:#EE1111; 
+	font-size:18px; 
+	line-height:0.6;
+	cursor:help;}
+
+

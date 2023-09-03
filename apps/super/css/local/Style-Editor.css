@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+.ERROR {margin:0;}
+
+.editor main form {
+	padding:0 0 10px 0;
+	background-color:#FFF;
+	box-shadow:0 1px 2px 0 #CCC;}
+.editor main form table tr {vertical-align:middle;}
+.editor main form table tr:first-child td {padding-top:20px;}
+.editor main form table tr td {padding:5px 10px;}
+.editor main form table tr td:first-child {width:10px;}
+.editor main form table tr:last-child td {
+	text-align:right;}	
+
+
+.editor main form label {
+	text-transform:uppercase;
+	font-weight:bold;
+	display:block;}	
+.editor main form input, 
+.editor main form select {
+	padding:10px 15px;
+	width:100%;
+	border:solid thin #DDD;}
+.editor main form select {
+	padding:10px;}
+.editor main form input:focus {background-color:#FFC;}	
+.editor main form input[type="submit"] {
+	padding:10px 20px;
+	color:#FFF;
+	width:auto;	
+	border:0;}	

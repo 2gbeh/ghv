@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ERROR {margin:0;}
+
+
+.signin main {margin-top:120px;}
+.signin main form {
+	padding:0 0 10px;
+	background-color:#FFF;
+	box-shadow:0 1px 2px 0 #CCC;}
+.signin main form table tr {vertical-align:middle;}
+.signin main form table tr td {padding:5px 10px;}
+.signin main form table tr td:first-child {width:10px;}
+.signin main form table tr:last-child td {
+	text-align:right;}	
+
+
+.signin main legend {
+	padding:10px 10px 15px;
+	margin-bottom:20px;
+	font-size:24px;
+	border-bottom:solid thin #DDD;
+	display:block;}
+.signin main legend img {
+	margin:0 10px 0 0;
+	width:40px;
+	float:left;}	
+.signin main form label {
+	padding:0 10px;
+	text-transform:uppercase;
+	font-weight:bold;
+	display:block;}	
+.signin main form input {
+	padding:10px 15px;
+	width:100%;
+	border:solid thin #DDD;}
+.signin main form input:focus {background-color:#FFC;}	
+.signin main form input[type="submit"] {
+	padding:10px 20px;
+	color:#FFF;
+	width:auto;	
+	border:0;}
+

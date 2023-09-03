@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+.dashboard main ul {background-color:#FFF;}
+.dashboard main ul li {
+	box-shadow:0 1px 2px 0 #DDD;	
+	display:block;}	
+.dashboard main ul li a {padding:10px 15px;}
+.dashboard main ul li a:hover {
+	color:#FFF;
+	cursor:pointer;}
+.dashboard main ul li .title {text-transform:uppercase;}	
+.dashboard main ul li .subtitle {color:#090;}
+
+
+ol.graph-tube {/*	background-color:#FFF;*/}
+ol.graph-tube li.graph-ink {
+	color:#FFF;
+	height:5px;
+	cursor:pointer;}
