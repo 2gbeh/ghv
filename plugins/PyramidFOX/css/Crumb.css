@@ -1,0 +1,16 @@
+@charset "utf-8";
+ul.tmp-crumb {
+	font-size:14px;
+	overflow:auto;}
+ul.tmp-crumb li {
+	padding:5px 10px;		
+	margin:0;
+	float:left;
+	border:solid thin #333;}		
+ul.tmp-crumb li:hover {
+	background-color:lavender;
+	cursor:default;}	
+ul.tmp-crumb li.th {
+	background-color:#333;
+	color:#FFF;}	
+ul.tmp-crumb li .meta {color:#666;}

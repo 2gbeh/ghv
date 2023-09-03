@@ -1,0 +1,16 @@
+@charset "utf-8";
+table.tmp-tab {
+	font-size:14px;
+	width:auto;}
+table.tmp-tab th {
+	padding:5px 10px;	
+	background-color:#333;
+	color:#FFF;
+	font-weight:normal;
+	border:solid thin #333;}	
+table.tmp-tab td {
+	border:solid thin;}
+table.tmp-tab td:hover {background-color:lavender;}	
+table.tmp-tab td a {
+	padding:5px 10px;	
+	display:block;}

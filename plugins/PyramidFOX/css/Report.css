@@ -1,0 +1,18 @@
+@charset "utf-8";
+table.tmp-report {font-size:14px;}
+table.tmp-report tr {border-bottom:solid thin #333;}
+table.tmp-report tr:hover {background-color:lavender;}	
+table.tmp-report td {padding:10px; white-space:normal;}	
+.report-title {
+	font-size:18px;
+	font-weight:bold;
+	display:inline-block;}
+.report-subtitle {
+	padding-top:5px;
+	color:#666;
+	clear:right;}	
+.report-meta {
+	color:#999;
+	float:right;
+	vertical-align:;
+	display:inline-block;}

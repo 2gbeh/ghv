@@ -1,0 +1,27 @@
+@charset "utf-8";
+ul.tmp-widget {
+	text-align:center;
+	display:block;}
+ul.tmp-widget li {
+	margin:10px;
+	width:310px;
+	min-width:250px;
+	min-height:200px;
+	text-align:center;
+	border:solid thin #666;}
+ul.tmp-widget li:hover {
+	background-color:lavender;
+	cursor:default;}	
+ul.tmp-widget li h1 {
+	padding:8px;
+	margin:0;	
+	background-color:#333;
+	color:white;
+	font-size:14px;}	
+ul.tmp-widget li h2 {
+	margin:10px;	
+	font-size:18px;}
+ul.tmp-widget li h3 {
+	margin:10px;
+	color:#666;
+	font-size:14px;}

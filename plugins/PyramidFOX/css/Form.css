@@ -1,0 +1,54 @@
+@charset "utf-8";
+form.tmp-form {width:95%;}
+form.tmp-form fieldset {
+	padding:0 20px;
+	border:solid thin #DDD;} 
+form.tmp-form legend {
+	padding:0 20px;}
+form.tmp-form label {
+	padding:10px 0 0 10px;
+	font-weight:bold;
+	display:block;}
+form.tmp-form input, 
+form.tmp-form select, 
+form.tmp-form textarea {
+	padding:15px;
+	margin:10px;
+	width:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	border:solid thin #DDD;
+	border-bottom:solid #CCC;
+	border-radius:10px;}
+form.tmp-form select {
+	padding:0 15px;}	
+form.tmp-form option {
+	padding:15px;}		
+form.tmp-form input:focus, 
+form.tmp-form select:focus, 
+form.tmp-form textarea:focus {
+	background-color:lavender;
+	border-bottom:solid #090;}	
+form.tmp-form input[type="checkbox"] {
+	width:auto;
+	margin:0 5px 0 10px;
+	vertical-align:middle;}
+form.tmp-form .fgroup {
+	margin:0;
+	text-align:right;}	
+form.tmp-form input[type="reset"],
+form.tmp-form input[type="button"], 	
+form.tmp-form input[type="submit"] {
+	padding:10px 30px;
+	margin:10px 5px;
+	width:auto;
+	font-size:18px;
+	border-radius:5px;}
+form.tmp-form input[type="reset"] {color:#333;}	
+form.tmp-form input[type="button"] {
+	background-color:#EE1111;
+	color:#FFF;}	
+form.tmp-form input[type="submit"] {
+	background-color:#090;
+	color:#FFF;}	
+
+
